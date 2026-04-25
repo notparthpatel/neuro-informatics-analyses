@@ -1,51 +1,46 @@
-# Neuro-Informatics & Clinical Research Pipeline
+# Neuro Informatics Projects
 **Developer:** Parth Patel
-**Target:** Clinical Informatics, Neuro-Imaging, and Implementation Science
+**Focus:** Clinical Informatics, Neurobehavioral Risk Modeling, and Imaging QA
 
-This repository serves as a professional portfolio for medical research informatics. It demonstrates the ability to ingest, clean, and model complex neurological datasets—ranging from raw MRI metadata to synthetic clinical biomarkers—using industry-standard Python frameworks.
+This repository contains a multi-modal research pipeline designed to support clinical decision support systems. As an incoming BS/MD student at IU Indianapolis, I have developed these tools to demonstrate competency in handling both unstructured medical imaging data and structured clinical biomarkers using Python based informatics.
 
----
+## Study 1: Rare Disease MRI Informatics
+**Objective:** Validation of a curated MRI dataset for rare neurological conditions to ensure clinical utility in AI driven diagnostics.
+* Standardized Mapping: Integrated Orphanet (ORPHA) clinical codes for conditions including Moyamoya and Walker Warburg Syndrome.
+* Data Engineering: Automated metadata parser to verify class balance and stratified splitting across 2,000 high quality scans.
+* Visual Evidence: ![MRI Distribution](results/condition_distribution.png)
 
-## Study 1: Neuro-Behavioral Clinical Risk Modeling
-**Objective:** Modeling the statistical relationship between lifestyle stressors and systemic inflammatory biomarkers.
+## Study 2: MRI Image Quality Audit
+**Objective:** Implementing automated image quality gatekeeping for neuroimaging pipelines.
+* Automated QA: Developed an Image Quality Audit (IQA) script using Laplacian Variance to mathematically score scan sharpness.
+* Technical Insight: This module ensures that only high fidelity scans enter the analytic pipeline, reducing noise in diagnostic models.
+* Visual Evidence: ![Quality Audit](results/mri_quality_audit.png)
 
-### Technical Achievements
-- **Exploratory Data Analysis (EDA):** Generated correlation matrices to identify interactions between **Stress Levels**, **Sleep Duration**, and inflammatory markers like **C-Reactive Protein (CRP)**.
-- **Visual Evidence:** ![Correlation Heatmap](results/neuro_risk_heatmap.png)
+## Study 3: Neurobehavioral Risk Modeling
+**Objective:** Analyzing the intersection of lifestyle stressors, systemic inflammation, and patient outcomes.
+* Biomarker Correlation: Mapped interactions between Stress Levels, Sleep Duration, and C-Reactive Protein (CRP).
+* Informatics Tool: Developed using Seaborn and Matplotlib for high fidelity statistical reporting.
+* Visual Evidence: ![Correlation Heatmap](results/neuro_risk_heatmap.png)
 
----
+## Study 4: Clinical Risk Stratification
+**Objective:** Categorizing patients into actionable risk tiers based on composite biomarker scores.
+* Clinical Stratification: Engineered a Neuro-Inflammatory Risk Index to categorize patients into Low, Moderate, and High Risk tiers.
+* Implementation: This tool simulates a clinical decision support system used to identify high risk patients within an EMR framework.
+* Visual Evidence: ![Risk Stratification](results/risk_stratification.png)
 
-## Study 2: Predictive Analytics (Machine Learning)
-**Objective:** Implementing Machine Learning to quantify the predictive weight of behavioral factors on mental health risk outcomes.
+## Study 5: Machine Learning and Predictive Analytics
+**Objective:** Quantifying the predictive weight of behavioral determinants on mental health risk.
+* Predictive Modeling: Implemented a Random Forest pipeline using scikit-learn to identify specific risk drivers.
+* Robust Logic: Built a column discovery loop to handle inconsistent clinical data headers and ensure model stability.
+* Visual Evidence: ![Feature Importance](results/feature_importance.png)
 
-### Technical Achievements
-- **Model Architecture:** Implemented a **Random Forest Regressor/Classifier** using `scikit-learn`.
-- **Feature Engineering:** Developed a dynamic column discovery loop to handle inconsistent clinical data headers.
-- **Clinical Insight:** Extracted "Feature Importance" to mathematically prove which lifestyle factors (e.g., Meditation vs. Screen Time) most accurately predict clinical risk tiers.
-- **Visual Evidence:** ![Feature Importance](results/feature_importance.png)
+## Technical Stack
+* Languages: Python 3.12+
+* Libraries: Pandas, NumPy, Scikit-learn, OpenCV (Headless), Seaborn, Matplotlib
+* Informatics: Regenstrief style clinical data modeling and ORPHA code integration
 
----
-
-## Study 3: Rare Disease MRI Classification & Informatics
-**Objective:** Validation of a curated MRI dataset for rare neurological conditions to ensure clinical utility in AI-driven diagnostics.
-
-### Technical Achievements
-- **Standardized Mapping:** Integrated **Orphanet (ORPHA)** clinical codes for conditions including Moyamoya, Walker-Warburg, and Fukuyama Muscular Dystrophy.
-- **Informatics Pipeline:** Developed an automated metadata parser to verify class balance and stratified splitting (70/15/15) across 2,000 high-quality scans.
-- **Visual Evidence:** ![MRI Distribution](results/condition_distribution.png)
-
----
-
-## Technical Toolkit
-- **Languages:** Python 3.12+
-- **Data Science:** Pandas, NumPy, Scikit-learn
-- **Visualization:** Matplotlib, Seaborn
-- **Frameworks:** Kagglehub API, Git/GitHub Version Control
-
----
-
-## 🎓 About Me
-As an incoming **BS/MD student and Bepko Scholar at IU Indianapolis**, my goal is to leverage my computational background to support the development of agile implementation tools and clinical decision support systems.
+## About Me
+I am a BS/MD candidate and Bepko Scholar at IU Indianapolis with a long term interest in applying computational tools to improve diagnostic accuracy and patient centered brain health outcomes.
 
 ### Contact Information
 - **LinkedIn:** linkedin/ln/notparthpatel

@@ -1,0 +1,13 @@
+# Python junk
+__pycache__/
+*.pyc
+
+# Large data files (We don't upload medical images to GitHub)
+data/
+*.zip
+*.dcm
+*.jpg
+*.png
+
+# Kaggle cache
+.kaggle/

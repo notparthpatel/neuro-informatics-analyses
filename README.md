@@ -5,7 +5,7 @@
 This repository contains a multi-modal research pipeline designed to support clinical decision support systems. As a BS/MD student at IU Indianapolis, I have developed these tools to demonstrate competency in handling both unstructured medical imaging data and structured clinical biomarkers using Python based informatics.
 
 ## Study 1: Rare Disease MRI Informatics
-**Objective:** Validation of a curated MRI dataset for rare neurological conditions to ensure clinical utility in AI driven diagnostics.
+**Objective:** Validation of a MRI dataset for rare neurological conditions to ensure clinical utility in AI driven diagnostics.
 * Standardized Mapping: Integrated Orphanet (ORPHA) clinical codes for conditions including Moyamoya and Walker Warburg Syndrome.
 * Data Engineering: Automated metadata parser to verify class balance and stratified splitting across 2,000 high quality scans.
 * Visual Evidence: ![MRI Distribution](results/condition_distribution.png)

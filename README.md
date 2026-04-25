@@ -15,7 +15,7 @@ This repository contains a multi-modal research pipeline designed to support cli
 ## Study 2: MRI Image Quality Audit
 **Objective:** Implementing automated image quality gatekeeping for neuroimaging pipelines.
 * Automated QA: Developed an Image Quality Audit (IQA) script using Laplacian Variance to mathematically score scan sharpness.
-* Technical Insight: This module ensures that only high fidelity scans enter the analytic pipeline, reducing noise in diagnostic models.
+* Technical Insight: This module ensures that only high fidelity scans enter the analytic pipeline, reducing noise in models.
 * Visual Evidence: ![Quality Audit](results/mri_quality_audit.png)
 
 ## Study 3: Neurobehavioral Risk Modeling

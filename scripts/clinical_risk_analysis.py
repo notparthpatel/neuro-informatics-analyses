@@ -19,7 +19,7 @@ def run_health_analysis():
 
     df = pd.read_csv(full_path)
 
-    # 3. Create a Correlation Heatmap of Neuro-Behavioral Markers
+    # 3. Create a Heatmap of Neuro-Behavioral Markers
     # This shows if high stress actually links to higher CRP (inflammation)
     plt.figure(figsize=(12, 8))
     cols_to_analyze = ['Stress_Level', 'Sleep_Hours', 'Rumination_Score', 

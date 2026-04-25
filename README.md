@@ -2,7 +2,7 @@
 **Developer:** Parth Patel
 **Focus:** Clinical Informatics, Neurobehavioral Risk Modeling, and Imaging QA
 
-This repository contains a multi-modal research pipeline designed to support clinical decision support systems. As an incoming BS/MD student at IU Indianapolis, I have developed these tools to demonstrate competency in handling both unstructured medical imaging data and structured clinical biomarkers using Python based informatics.
+This repository contains a multi-modal research pipeline designed to support clinical decision support systems. As a BS/MD student at IU Indianapolis, I have developed these tools to demonstrate competency in handling both unstructured medical imaging data and structured clinical biomarkers using Python based informatics.
 
 ## Study 1: Rare Disease MRI Informatics
 **Objective:** Validation of a curated MRI dataset for rare neurological conditions to ensure clinical utility in AI driven diagnostics.
@@ -37,7 +37,7 @@ This repository contains a multi-modal research pipeline designed to support cli
 ## Technical Stack
 * Languages: Python 3.12+
 * Libraries: Pandas, NumPy, Scikit-learn, OpenCV (Headless), Seaborn, Matplotlib
-* Informatics: Regenstrief style clinical data modeling and ORPHA code integration
+* Informatics: Clinical data modeling and ORPHA code integration
 
 ## About Me
 I am a BS/MD candidate and Bepko Scholar at IU Indianapolis with a long term interest in applying computational tools to improve diagnostic accuracy and patient centered brain health outcomes.

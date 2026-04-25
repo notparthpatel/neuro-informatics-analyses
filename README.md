@@ -1,5 +1,5 @@
 # neuro-informatics-outcomes
-Computational analysis of neurosurgical outcomes and public health informatics using R and Python. Focused on traumatic brain injury (TBI) and healthcare utilization
+Computational analysis of neurosurgical/neurological outcomes and public health informatics using R and Python. Focused on traumatic brain injury (TBI) and healthcare utilization
 
 This repository serves as a portfolio for clinical informatics projects focused on neurosurgery and public health. My goal is to leverage computational tools (R, Python, Java) to improve patient outcomes and understand healthcare utilization patterns.
 

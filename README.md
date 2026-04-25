@@ -1,4 +1,4 @@
-# NeuroInformatics Project Showcase
+# Neuro-Informatics Project Showcase
 
 **Developer:** Parth Patel
 

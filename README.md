@@ -1,5 +1,7 @@
 # Neuro Informatics Projects
+
 **Developer:** Parth Patel
+
 **Focus:** Clinical Informatics, Neurobehavioral Risk Modeling, and Imaging QA
 
 This repository contains a multi-modal research pipeline designed to support clinical decision support systems. As a BS/MD student at IU Indianapolis, I have developed these tools to demonstrate competency in handling both unstructured medical imaging data and structured clinical biomarkers using Python based informatics.
@@ -40,7 +42,7 @@ This repository contains a multi-modal research pipeline designed to support cli
 * Informatics: Clinical data modeling and ORPHA code integration
 
 ## About Me
-I am a BS/MD candidate and Bepko Scholar at IU Indianapolis with a long term interest in applying computational tools to improve diagnostic accuracy and patient centered brain health outcomes.
+I am a BS/MD student and Bepko Scholar at IU Indianapolis with a long term interest in applying computational tools to improve diagnostic accuracy and patient centered brain health outcomes.
 
 ### Contact Information
 - **LinkedIn:** linkedin/ln/notparthpatel

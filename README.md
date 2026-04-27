@@ -2,7 +2,7 @@
 
 **Developer:** Parth Patel
 
-This repository contains a multi-modal research showcase designed to support clinical decision support systems. As a BS/MD student at IU Indianapolis, I have developed these tools to demonstrate competency in handling both unstructured medical imaging data and structured clinical biomarkers using Python based informatics.
+This repository contains a multi-modal research showcase designed to support clinical decision support systems. I have developed these tools to demonstrate competency in handling both unstructured medical imaging data and structured clinical biomarkers using Python based informatics.
 
 ## Study 1: Machine Learning and Predictive Analytics
 **Objective:** Quantifying the predictive weight of behavioral determinants on mental health risk.

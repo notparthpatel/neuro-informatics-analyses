@@ -2,7 +2,7 @@
 __pycache__/
 *.pyc
 
-# Large data files (We don't upload medical images to GitHub)
+# Large data files (pls don't upload medical images to GitHub)
 data/
 *.zip
 *.dcm

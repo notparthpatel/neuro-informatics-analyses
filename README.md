@@ -1,6 +1,6 @@
 # Neuro-Informatics Project Showcase
 
-**Developer:** Parth Patel
+Parth Patel
 
 This repository contains a multi-modal research showcase designed to support clinical decision support systems. I have developed these tools to demonstrate competency in handling both unstructured medical imaging data and structured clinical biomarkers using Python based informatics.
 

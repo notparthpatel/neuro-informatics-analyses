@@ -12,7 +12,7 @@ This repository contains a multi-modal research showcase designed to support cli
 
 ## Study 2: Rare Neurological Disease Distribution
 **Objective:** Validation of a curated MRI dataset for rare neurological conditions to ensure clinical utility in AI driven diagnostics.
-* Standardized Mapping: Integrated Orphanet (ORPHA) clinical codes for conditions including Fukuyama Muscular Dystrophy and Moyamoya.
+* Standardized Mapping: Integrated Orphanet (ORPHA) codes for conditions including Fukuyama Muscular Dystrophy and Moyamoya.
 * Clinical Realism: Applied a logarithmic prevalence scale to reflect actual clinical frequency in rare disease registries.
 * Visual Evidence: ![MRI Distribution](results/condition_distribution.png)
 
